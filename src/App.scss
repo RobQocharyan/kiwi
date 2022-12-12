@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+
+.App {
+
+
+    .sections{
+        display: flex;
+        width: 100%;
+        padding: 0 54px;
+        background-color: #1A202C !important;
+        flex-grow: 2;
+        .leftSection{
+            display: flex;
+            flex-direction: column;
+        }
+        .rightSection{
+            display: flex;
+            flex-direction: column;
+
+            flex-grow: 2;
+        }
+        .leftMain{
+            width: 25%;
+        }
+        .rightMain{
+            // display: none;
+            width: 75%;
+        }
+    }
+}
+

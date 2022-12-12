@@ -1,0 +1,114 @@
+
+
+.user{
+    width: 33%;
+
+    height: 312px;
+    border-radius: 13px;
+    background-color: rgba(33, 39, 52, 1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.25) ;
+    border: 1px solid #212734;
+    position: relative;
+
+    &__name{
+        display: flex;
+        align-items: center;
+        padding: 20px 0 0 21px;
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 77px;
+            height: 76px;
+            border-radius: 38px;
+            background-color: rgba(128, 90, 213, 1);
+            cursor: pointer;
+
+            span{
+                font-size: 40px;
+                font-weight: 300;
+                color: #fff;
+            }
+        }
+        .info__user{
+            margin-left: 22px;
+            a{
+                font-weight: 300;
+                text-decoration: none;
+                font-size: 24px;
+                line-height: 36px;
+                color: #805AD5;
+                display: flex;
+                align-items: center;
+                span{
+                    margin-left: 11px;
+                }
+                img{
+                    
+                }
+            }
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #fff;
+                margin-top: 9px;
+            }
+        }
+    }
+
+    &__diagram{
+        .diagram{
+            display: flex;
+
+            img{
+
+                &:nth-child(1){
+                    width: 78%;
+                    height: 373px;
+                    position:absolute;
+                    top: -62px;
+                    left: -20px;
+                }
+
+                &:nth-child(2){
+                    width: 30%;
+                    height: 140px;
+                    position:absolute;
+                    right: -1px;
+                    bottom: 0;
+                }
+            }
+        }  
+    }
+
+    &__days{
+        width: 100%;
+        margin-top: 35px;
+        position: absolute;
+        bottom: 14px;
+        z-index: 99;
+        left: 0;
+        ul{
+            display: flex;
+            li{
+                margin-left: 10px;
+                transition: all .3s;
+                cursor: pointer;
+                color: #fff;
+                &:hover{
+                    width: 28px;
+                    height: 25px;
+                    border-radius: 2px;
+                    border: 1px solid rgba(163, 160, 160, 1);
+                    background-color: #1A202C;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 2px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+
+
+.rightSection{
+ 
+    &__top{
+        display: flex;
+        margin-top: 19px;
+        margin-left: 13px;
+    }
+
+    &__midlle{
+        display: flex;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+
+    &__bottom{
+        margin-left: 12px;
+       
+    }
+}
