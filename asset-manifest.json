@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kiwi/static/css/main.201f65b4.css",
+    "main.js": "/kiwi/static/js/main.bf6e9349.js",
+    "static/media/diagram_bar.png": "/kiwi/static/media/diagram_bar.1c2f4978985540ea8905.png",
+    "static/media/futures_diagram.png": "/kiwi/static/media/futures_diagram.1329a5d90fbe16c81b22.png",
+    "static/media/user__diagram.png": "/kiwi/static/media/user__diagram.ad6128f112fd4eb91b68.png",
+    "index.html": "/kiwi/index.html",
+    "main.201f65b4.css.map": "/kiwi/static/css/main.201f65b4.css.map",
+    "main.bf6e9349.js.map": "/kiwi/static/js/main.bf6e9349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.201f65b4.css",
+    "static/js/main.bf6e9349.js"
+  ]
+}
