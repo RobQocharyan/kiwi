@@ -2,20 +2,89 @@ import React from "react";
 import "./LeftSection.scss";
 
 export const LeftSection = () => {
-
   const tableObject = [
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-    {img:"../../../img/colinbase.png",name:"Colinbase",persent:"4.85%",algorithm:"../../../img/algorithm_line.png",pencil:"../../../img/pensil.png",rycle:"../../../img/matamask_1.png",been:"../../../img/matamask_2.png"},
-  ]
-
-
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+    {
+      img: "../../../img/colinbase.png",
+      name: "Colinbase",
+      persent: "4.85%",
+      algorithm: "../../../img/algorithm_line.png",
+      pencil: "../../../img/pensil.png",
+      rycle: "../../../img/matamask_1.png",
+      been: "../../../img/matamask_2.png",
+    },
+  ];
 
   return (
     <div className="leftSection">
@@ -526,51 +595,68 @@ export const LeftSection = () => {
               </li>
             </ul>
           </div>
-
-          
         </div>
         <div className="colinbase">
-            <table>
-                {tableObject.map((e)=>{
-                    return (
-                      <tr key={e.key}>
-                        <td>
-                          <img src={require("../../../img/colinbase.png")} alt="" />
-                        </td>
-                        <td>
-                          <span>{e.name}</span>
-                        </td>
-                        <td>
-                          <span>{e.persent}</span>
-                        </td>
-                        <td>
-                          <img src={require("../../../img/algorithm_line.png")} alt="" />
-                        </td>
-                        <td>
-                          <img src={require("../../../img/pensil.png")} alt="" />
-                        </td>
-                        <td>
-                          <div>
-                            <img src={require("../../../img/metamask_1.png")} alt="" />
-                            <img src={require("../../../img/metamask_2.png")} alt="" />
-                          </div>
-                        </td>
-                      </tr>
-                      
-                    )
-                })}
-              
-            </table>
-          </div>
+          <table>
+            {tableObject.map((e) => {
+              return (
+                <tr key={e.key}>
+                  <td>
+                    <img src={require("../../../img/colinbase.png")} alt="" />
+                  </td>
+                  <td>
+                    <span>{e.name}</span>
+                  </td>
+                  <td>
+                    <span>{e.persent}</span>
+                  </td>
+                  <td>
+                    <img
+                      src={require("../../../img/algorithm_line.png")}
+                      alt=""
+                    />
+                  </td>
+                  <td>
+                    <img src={require("../../../img/pensil.png")} alt="" />
+                  </td>
+                  <td>
+                    <div>
+                      <img
+                        src={require("../../../img/metamask_1.png")}
+                        alt=""
+                      />
+                      <img
+                        src={require("../../../img/metamask_2.png")}
+                        alt=""
+                      />
+                    </div>
+                  </td>
+                </tr>
+              );
+            })}
+          </table>
+        </div>
       </div>
       <div className="leftSection__bottom">
         <div className="close">
-          <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M8.59047 0.213257L5.00961 3.79412L1.42875 0.213257L0.0223389 1.61967L3.6032 5.20052L0.0223389 8.78138L1.42875 10.1878L5.00961 6.60693L8.59047 10.1878L9.99687 8.78138L6.41602 5.20052L9.99687 1.61967L8.59047 0.213257Z" fill="#F2F2F2"/>
+          <svg
+            width="10"
+            height="11"
+            viewBox="0 0 10 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.59047 0.213257L5.00961 3.79412L1.42875 0.213257L0.0223389 1.61967L3.6032 5.20052L0.0223389 8.78138L1.42875 10.1878L5.00961 6.60693L8.59047 10.1878L9.99687 8.78138L6.41602 5.20052L9.99687 1.61967L8.59047 0.213257Z"
+              fill="#F2F2F2"
+            />
           </svg>
         </div>
         <div className="leftSection__text">
-          <p>Your free trial has been started․ There are <span>5 days</span>  left.</p>
+          <p>
+            Your free trial has been started․ There are <span>5 days</span>{" "}
+            left.
+          </p>
         </div>
         <div className="subscribe__button">
           <a href="#">Subscribe</a>

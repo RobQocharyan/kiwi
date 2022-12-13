@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.scss";
 import { Header } from "./components/Header/Header";
 import { LeftSection } from "./components/Sections/LeftSection/LeftSection";
